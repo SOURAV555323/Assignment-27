@@ -1,0 +1,117 @@
+@media (max-width: 1199px) {
+    .service_section .service .service_item .service_box {
+        margin: 0 23px;
+    }
+}
+@media (max-width: 991px) {
+    .service_section .service .service_item .service_box {
+        margin: 0 17px;
+    }
+}
+@media (max-width: 990px){
+    .container {
+        max-width: 827px;
+    }
+}
+@media (max-width: 830px) {
+    .header_section .header .header_logo h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .header_section .header .header_menu ul li a {
+        padding: 0 12px;
+        line-height: 40px;
+    }
+    .header_section {
+        height: 40px;
+    }
+}
+@media (max-width: 784px) {
+    .header_section .header .header_logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header_section .header .header_menu ul {
+        text-align: center;
+        margin-top: -16px;
+        margin-left: 35px;
+    }
+    .header_section {
+        height: 57px;
+    }
+    .header_section .header .header_menu {
+        width: 100%;
+    }
+    .banner_section .banner h1 {
+        font-size: 34px;
+    }
+    .banner_section .banner p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .banner_section .banner a {
+        font-size: 13px;
+    }
+    .banner_section {
+        padding: 115px 0;
+    }
+    .service_section .service p {
+        width: 80%;
+        margin: auto;
+    }
+    .service_section .service .service_item .service_box {
+        width: 50%;
+        margin: 25px auto;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+    .about_section .about p {
+        width: 80%;
+        margin: 25px auto;
+    }
+    .about_section .about .about_logo {
+        width: 100%;
+    }
+    .about_section .about .about_notice {
+        width: 68%;
+        margin: auto;
+    }
+    .about_section .about .about_notice .about_notice_title p {
+        margin-top: 20px;
+    }
+    p {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .about_section .about .about_notice {
+        width: 100%;
+    }
+    .about_section .about .about_notice .about_notice_title {
+        width: 100%;
+        text-align: center;
+    }
+    .contact_section .contact .contact_item .contact_box {
+        margin-top: 15px;
+    }
+    .social_footer_section .social_footer ul {
+        padding-left: 0;
+    }
+}
+@media (max-width: 576px){
+    .service_section .service .service_item .service_box {
+        width: 100%;
+    }
+    .contact_section .contact .contact_item .contact_box {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .social_footer_section .social_footer ul li {
+        padding: 0 6px;
+    }
+    .footer_section .footer span {
+        font-size: 13px;
+    }
+}

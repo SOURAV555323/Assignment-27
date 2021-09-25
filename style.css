@@ -1,0 +1,243 @@
+
+/*===============================
+===>>> Default CSS start <<<===*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*=============================
+===>>> Default CSS end <<<===*/
+
+/*==================================
+===>>> header section start <<<===*/
+.header_section{
+    background-color: #22c3a3;
+    height: 50px;
+}
+.header_section .header .header_logo{
+    width: 30%;
+    float: left;
+}
+.header_section .header .header_logo h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'STIX Two Text', serif;
+    margin-bottom: 0;
+    line-height: 50px;
+}
+.header_section .header .header_menu{
+    width: 70%;
+    float: right;
+    margin-bottom: 0;
+}
+.header_section .header .header_menu ul{
+    list-style: none;
+    float: right;
+}
+.header_section .header .header_menu ul li{
+    float: left;
+}
+.header_section .header .header_menu ul li a {
+	display: block;
+	padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'STIX Two Text', serif;
+    line-height: 50px;
+}
+/*===>>> header section end <<<===
+================================*/
+
+/*=================================
+===>>> banner section start<<<===*/
+.banner_section{
+    background-image: url("https://i.ibb.co/xgS0YxM/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 150px 0;
+}
+.banner_section .banner{
+    text-align: center;
+}
+.banner_section .banner h1{
+    margin-bottom: 0;
+    color: white; 
+    font-family: 'STIX Two Text', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner_section .banner p{
+    color: white;
+    font-family: 'STIX Two Text', serif;
+    margin-bottom: 25px;
+}
+.banner_section .banner a{
+    padding: 5px 14px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+/*===>>> banner section end <<<===
+================================*/
+
+/*===================================
+===>>> service section start <<<===*/
+.service_section{
+    padding: 60px 0;
+    border-bottom: 2px solid #22c3a3;
+}
+.service_section .service{
+    text-align: center;
+}
+.service_section .service h3 {
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+    font-family: 'STIX Two Text', serif;
+
+}
+.service_section .service p{
+    color: rgb(63, 60, 60);
+    margin-bottom: 60px;
+}
+.service_section .service .service_item .service_box {
+	width: 20%;
+	text-align: center;
+	float: left;
+	margin: 0 27px;
+}
+.service_section .service .service_item .service_box i{
+    color: #22c3a3;
+    font-size: 30px;
+}
+.service_section .service .service_item .service_box h3 {
+	font-size: 23px;
+	margin: 10px 0;
+}
+.service_section .service .service_item .service_box p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*===>>> service section end <<<===
+=================================*/
+
+/*=================================
+===>>> about section start <<<===*/
+.about_section{
+    padding: 50px 0;
+}
+.about_section .about{
+    text-align: center;
+}
+.about_section .about h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+	margin-bottom: 15px;
+    font-family: 'STIX Two Text', serif;
+}
+.about_section .about p{
+    color: rgb(48, 46, 46);
+    margin-bottom: 30px;
+}
+.about_section .about .about_logo{
+    width: 45%;
+    float: left;
+}
+.about_section .about .about_logo img{
+    max-width: 100%;
+}
+.about_section .about .about_notice{
+    width: 50%;
+    float: right;
+}
+.about_section .about .about_notice .about_notice_title{
+    text-align: left;
+}
+.about_section .about .about_notice .about_notice_title h4 {
+	text-transform: capitalize;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+.about_section .about .about_notice .about_notice_title p{
+    margin-bottom: 15px;
+    color: rgb(46, 43, 43);
+}
+/*===>>> about section end <<<===
+===============================*/
+.contact_section .contact{
+    text-align: center;
+    background-color: #ddd;
+    padding: 60px 0;
+}
+.contact_section .contact h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+	margin-bottom: 15px;
+    font-family: 'STIX Two Text', serif;
+}
+.contact_section .contact .contact_item .contact_box{
+    width: 33.3%;
+    text-align: center;
+    float: left;
+}
+.contact_section .contact .contact_item .contact_box i{
+    color: #22c3a3;
+    font-size: 20px;
+}
+.contact_section .contact .contact_item .contact_box p{
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: rgb(49, 48, 48);
+}
+.contact_section .contact .contact_item .contact_box span{
+    text-transform: capitalize;
+}
+/*===>>> contact section end <<<===
+=================================*/
+
+/*=========================================
+===>>> social footer section start <<<===*/
+.social_footer_section{
+    background-color: #22c3a3;
+}
+.social_footer_section .social_footer{
+    height: 60px;
+}
+.social_footer_section .social_footer ul{
+    list-style: none;
+    text-align: center;
+}
+.social_footer_section .social_footer ul li {
+	display: inline-block;
+	padding: 0 13px;
+	line-height: 60px;
+	color: white;
+}
+/*===>>> social footer section end <<<===
+=======================================*/
+
+/*==================================
+===>>> footer section start <<<===*/
+.footer_section{
+    background-color: #222222;
+}
+.footer_section .footer{
+    padding: 10px 0;
+    text-align: center;
+}
+.footer_section .footer span{
+    color: rgb(189, 177, 177);
+}
+/*===>>> footer section end <<<===
+================================*/
